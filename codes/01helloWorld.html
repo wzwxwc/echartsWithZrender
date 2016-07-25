@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>01hello world</title>
+    <style>
+        #main {
+            width: 600px;
+            height: 400px;
+            border: 2px solid greenyellow;
+        }
+    </style>
+    <script src="../deps/echarts.js"></script>
+    <script>
+        window.onload = function () {
+            var domChart = document.getElementById("main");
+            var myChart = echarts.init(domChart);
+            var option = {
+                title: {
+                    text: "Hello Echarts"
+                },
+                tooltip: {},
+                legend: {
+                    data: ['销量']
+                },
+                xAxis: {
+                    data: ["衬衫", "羊毛衫", "雪纺衫", "裤子", "高跟鞋", "袜子"]
+                },
+                yAxis: {},
+                series: [{
+                    name: '销量',
+                    type: 'bar',
+                    data: [5, 20, 36, 10, 10, 20]
+                }]
+            };
+            myChart.setOption(option);
+        }
+    </script>
+
+</head>
+<body>
+<div id="main" style="height: 400px;"></div>
+</body>
+</html>
