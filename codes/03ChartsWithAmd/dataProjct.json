@@ -1,0 +1,14 @@
+{
+  "provinces":[
+    {"code":"001","name":"山西省","count":56},
+    {"code":"002","name":"甘肃省","count":56}
+  ],
+  "chartDatas":[
+    {"value": 400, "name": "油气田救援队", "code": "111"},
+    {"value": 335, "name": "M救援队", "code": "112"},
+    {"value": 310, "name": "危化救援队", "code": "113"},
+    {"value": 274, "name": "矿山救援队", "code": "114"},
+    {"value": 235, "name": "其他救援队", "code": "115"}
+  ],
+  "bottomInfo":"已标注20712位，未标注213位"
+}

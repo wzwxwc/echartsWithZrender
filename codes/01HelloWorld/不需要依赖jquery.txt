@@ -1,0 +1,1 @@
+echarts不需要依赖jquery
